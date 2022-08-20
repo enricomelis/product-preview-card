@@ -41,7 +41,13 @@ main {
     align-items: center;
 }
 
-@media (min-width: 50em) {
+@media (min-width: $width-mobile){
+    main {
+        width: 60%;
+    }
+}
+
+@media (min-width: 95em) {
     .mobile-only {
         display: none;
     }

@@ -10,6 +10,8 @@
     font-weight: $fw-regular;
     font-size: $size-300;
     cursor: pointer;
+
+    background: inline-image('/src/assets/img/icon-cart.svg');
 }
 
 .button:where(:hover, :focus){
