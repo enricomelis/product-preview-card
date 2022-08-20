@@ -1,0 +1,27 @@
+@use '../abstracts/' as *;
+
+
+.text-primary {
+    font-family: $ff-primary;
+    color: $clr-primary-500;
+    font-size: $size-300;
+    font-weight: $fw-regular;
+}
+
+
+.text-bold {
+    font-family: $ff-accent;
+    color: $clr-primary-900;
+    font-size: $size-800;
+    font-weight: $fw-bold;
+    line-height: 100%;
+}
+
+.text-bold.price {
+    color: $clr-accent-500;
+}
+
+.discounted {
+    text-decoration: line-through;
+}
+

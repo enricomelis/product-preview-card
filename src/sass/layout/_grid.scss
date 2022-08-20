@@ -1,0 +1,22 @@
+@use '../abstracts/' as *;
+
+.grid-container {
+    display: grid;
+}
+
+.image img {
+    width: 100%;
+}
+
+.product {
+    display: grid;
+    gap: $size-600;
+}
+
+
+@media (min-width: 50em) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
