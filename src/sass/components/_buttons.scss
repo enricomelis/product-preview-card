@@ -11,9 +11,15 @@
     font-size: $size-300;
     cursor: pointer;
 
-    background: inline-image('/src/assets/img/icon-cart.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button:where(:hover, :focus){
     background-color: $clr-accent-800;
+}
+
+.button > svg {
+    margin-right: 7px;
 }
